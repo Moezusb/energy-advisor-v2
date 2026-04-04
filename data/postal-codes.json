@@ -1684,6 +1684,66 @@
       "hq_rebate"
     ]
   },
+  "J8X": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "J8Y": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "J8Z": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "J9A": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "J9B": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "J9H": {
+    "city": "Gatineau",
+    "province": "QC",
+    "hdd": 3100,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
   "G1A": {
     "city": "Quebec City",
     "province": "QC",
