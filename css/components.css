@@ -643,3 +643,22 @@
         height: 6px;
     }
 }
+/* ---- ERROR STYLING ---- */
+
+.form-input.error,
+.form-select.error {
+    border-color: var(--color-error);
+    background-color: rgba(239, 68, 68, 0.05);
+}
+
+.form-input.error:focus,
+.form-select.error:focus {
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.field-error {
+    color: var(--color-error);
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-2);
+    display: block;
+}
