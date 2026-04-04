@@ -1,0 +1,362 @@
+/* ============================================================================
+   BUILDING ENERGY ADVISOR V2 - THEME CSS
+   Design: Apple-inspired minimalism + Sustainability earnestness
+   ============================================================================ */
+
+/* ---- CSS CUSTOM PROPERTIES (Design Tokens) ---- */
+
+:root {
+    /* Color Palette */
+    --color-primary: #2D5016;           /* Forest Green (main) */
+    --color-primary-light: #4A7C2C;     /* Lighter forest green */
+    --color-primary-dark: #1a2f0b;      /* Darker forest green */
+    
+    --color-accent: #D97706;            /* Burnt Orange (calls to action) */
+    --color-accent-light: #F59E0B;      /* Lighter orange */
+    --color-accent-dark: #B45309;       /* Darker orange */
+    
+    --color-secondary: #0891B2;         /* Teal (secondary actions) */
+    
+    --color-neutral-50: #F5F3ED;        /* Off-white / Cream */
+    --color-neutral-100: #F3F1E8;       /* Very light cream */
+    --color-neutral-200: #E8E3D8;       /* Light cream */
+    --color-neutral-300: #D4CCC0;       /* Medium light */
+    --color-neutral-400: #A89F93;       /* Medium */
+    --color-neutral-500: #7B7268;       /* Medium dark */
+    --color-neutral-600: #5A5350;       /* Dark */
+    --color-neutral-700: #3D3935;       /* Darker */
+    --color-neutral-800: #2D2926;       /* Very dark */
+    --color-neutral-900: #1A1816;       /* Almost black */
+    
+    --color-success: #10B981;           /* Green (positive outcome) */
+    --color-warning: #F59E0B;           /* Amber (caution) */
+    --color-error: #EF4444;             /* Red (critical) */
+    --color-info: #3B82F6;              /* Blue (information) */
+    
+    /* Typography */
+    --font-display: 'Plus Jakarta Sans', sans-serif;  /* Headlines */
+    --font-body: 'Plus Jakarta Sans', sans-serif;     /* Body text */
+    --font-mono: 'DM Mono', monospace;                /* Technical/Data */
+    
+    --font-size-xs: 0.75rem;            /* 12px */
+    --font-size-sm: 0.875rem;           /* 14px */
+    --font-size-base: 1rem;             /* 16px */
+    --font-size-lg: 1.125rem;           /* 18px */
+    --font-size-xl: 1.25rem;            /* 20px */
+    --font-size-2xl: 1.5rem;            /* 24px */
+    --font-size-3xl: 1.875rem;          /* 30px */
+    --font-size-4xl: 2.25rem;           /* 36px */
+    
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Spacing */
+    --space-0: 0;
+    --space-1: 0.25rem;    /* 4px */
+    --space-2: 0.5rem;     /* 8px */
+    --space-3: 0.75rem;    /* 12px */
+    --space-4: 1rem;       /* 16px */
+    --space-5: 1.25rem;    /* 20px */
+    --space-6: 1.5rem;     /* 24px */
+    --space-8: 2rem;       /* 32px */
+    --space-10: 2.5rem;    /* 40px */
+    --space-12: 3rem;      /* 48px */
+    --space-16: 4rem;      /* 64px */
+    --space-20: 5rem;      /* 80px */
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    
+    /* Radius (Apple-inspired squircles) */
+    --radius-sm: 0.375rem;   /* 6px */
+    --radius-md: 0.5rem;     /* 8px */
+    --radius-lg: 1rem;       /* 16px */
+    --radius-xl: 1.5rem;     /* 24px */
+    --radius-2xl: 2rem;      /* 32px */
+    
+    /* Borders */
+    --border-width-thin: 1px;
+    --border-width-base: 1px;
+    --border: var(--border-width-base) solid var(--color-neutral-200);
+    
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Z-index */
+    --z-base: 0;
+    --z-dropdown: 10;
+    --z-sticky: 20;
+    --z-fixed: 30;
+    --z-modal-bg: 40;
+    --z-modal: 50;
+    --z-tooltip: 60;
+}
+
+/* ---- GLOBAL STYLES ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    color: var(--color-neutral-700);
+    background-color: var(--color-neutral-50);
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- TYPOGRAPHY ---- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-neutral-900);
+    margin-bottom: var(--space-4);
+}
+
+h1 {
+    font-size: var(--font-size-4xl);
+}
+
+h2 {
+    font-size: var(--font-size-3xl);
+}
+
+h3 {
+    font-size: var(--font-size-2xl);
+}
+
+h4 {
+    font-size: var(--font-size-xl);
+}
+
+h5 {
+    font-size: var(--font-size-lg);
+}
+
+h6 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+}
+
+p {
+    margin-bottom: var(--space-4);
+    color: var(--color-neutral-600);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-primary-light);
+    text-decoration: underline;
+}
+
+small {
+    font-size: var(--font-size-sm);
+    color: var(--color-neutral-500);
+}
+
+code {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    background-color: var(--color-neutral-100);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+    color: var(--color-neutral-700);
+}
+
+/* ---- LAYOUT ---- */
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-neutral-50);
+}
+
+.main-content {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: var(--space-8) var(--space-4);
+}
+
+/* ---- HEADER ---- */
+
+.header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: var(--space-16) var(--space-4);
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.logo-icon {
+    font-size: var(--font-size-4xl);
+}
+
+.logo h1 {
+    color: white;
+    margin: 0;
+}
+
+.tagline {
+    font-size: var(--font-size-lg);
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+/* ---- FOOTER ---- */
+
+.footer {
+    background-color: var(--color-neutral-800);
+    color: var(--color-neutral-300);
+    text-align: center;
+    padding: var(--space-12) var(--space-4);
+    margin-top: auto;
+    font-size: var(--font-size-sm);
+    border-top: var(--border);
+}
+
+.footer p {
+    margin: var(--space-2) 0;
+    color: var(--color-neutral-300);
+}
+
+.footer-link {
+    color: var(--color-accent);
+}
+
+.footer-link:hover {
+    color: var(--color-accent-light);
+}
+
+/* ---- SECTION STYLES ---- */
+
+.section-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-neutral-900);
+    margin-bottom: var(--space-2);
+}
+
+.section-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--color-neutral-500);
+    margin-bottom: var(--space-8);
+}
+
+/* ---- UTILITIES ---- */
+
+.text-muted {
+    color: var(--color-neutral-500);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+.text-success {
+    color: var(--color-success);
+}
+
+.text-warning {
+    color: var(--color-warning);
+}
+
+.text-error {
+    color: var(--color-error);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* ---- RESPONSIVE DESIGN ---- */
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: var(--space-4);
+    }
+
+    h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-xl);
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: var(--space-8) var(--space-4);
+    }
+
+    .logo {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-lg);
+    }
+}
