@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Energy Advisor V2</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🏗️</span>
+                    <h1>Energy Advisor</h1>
+                </div>
+                <p class="tagline">Find your best retrofit. See the ROI.</p>
+            </div>
+        </header>
+
+        <!-- Main Container -->
+        <main class="main-content">
+            <!-- Form Section -->
+            <section class="form-section" id="formSection">
+                <div class="form-container">
+                    <h2 class="section-title">Your Building Profile</h2>
+                    <p class="section-subtitle">Tell us about your space. We'll show you what works where you live.</p>
+
+                    <form id="advisorForm" class="form">
+                        <!-- Postal Code -->
+                        <div class="form-group">
+                            <label for="postalCode">Postal Code (First 3 Characters)</label>
+                            <input 
+                                type="text" 
+                                id="postalCode" 
+                                name="postalCode" 
+                                placeholder="e.g., M1A, T1A, H1A"
+                                maxlength="3"
+                                class="form-input"
+                                required
+                            >
+                            <div class="climate-meter">
+                                <span class="meter-label">Heating Need:</span>
+                                <div class="meter-bar">
+                                    <div class="meter-fill" id="climateBar"></div>
+                                </div>
+                                <span class="meter-value" id="hddValue">—</span>
+                            </div>
+                        </div>
+
+                        <!-- Building Type -->
+                        <div class="form-group">
+                            <label for="buildingType">Building Type</label>
+                            <select id="buildingType" name="buildingType" class="form-select" required>
+                                <option value="">Select a type...</option>
+                                <option value="residentialSingle">Single-Family Home</option>
+                                <option value="residentialCondo">Condo / Townhouse</option>
+                                <option value="residentialMulti">Multi-Unit (2-4)</option>
+                                <option value="commercialOffice">Commercial Office</option>
+                                <option value="commercialRetail">Retail</option>
+                                <option value="institutional">Institutional (School, Hospital)</option>
+                                <option value="industrialLight">Light Industrial</option>
+                                <option value="warehouse">Warehouse</option>
+                            </select>
+                        </div>
+
+                        <!-- Current Heating Fuel -->
+                        <div class="form-group">
+                            <label for="currentFuel">Current Heating Fuel</label>
+                            <select id="currentFuel" name="currentFuel" class="form-select" required>
+                                <option value="">Select a fuel...</option>
+                                <option value="naturalGas">Natural Gas</option>
+                                <option value="heatingOil">Heating Oil</option>
+                                <option value="propane">Propane</option>
+                                <option value="electricBaseboard">Electric Baseboard</option>
+                                <option value="electricHeatPump">Electric Heat Pump</option>
+                                <option value="districtHeating">District Heating</option>
+                                <option value="wood">Wood / Pellets</option>
+                            </select>
+                        </div>
+
+                        <!-- Annual Energy Spend -->
+                        <div class="form-group">
+                            <label for="annualSpend">Annual Energy Spend (CAD)</label>
+                            <div class="input-wrapper">
+                                <span class="currency-symbol">$</span>
+                                <input 
+                                    type="number" 
+                                    id="annualSpend" 
+                                    name="annualSpend" 
+                                    placeholder="2500"
+                                    min="100"
+                                    max="100000"
+                                    class="form-input currency-input"
+                                    required
+                                >
+                            </div>
+                            <small class="form-hint">Estimated annual cost for heating, cooling, hot water, and lights</small>
+                        </div>
+
+                        <!-- Building Size (for cost estimation) -->
+                        <div class="form-group">
+                            <label for="squareFeet">Building Size (sq ft) - Optional</label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="number" 
+                                    id="squareFeet" 
+                                    name="squareFeet" 
+                                    placeholder="2000"
+                                    min="100"
+                                    max="500000"
+                                    class="form-input"
+                                >
+                                <span class="unit-label">sq ft</span>
+                            </div>
+                        </div>
+
+                        <!-- Roof Condition (for solar) -->
+                        <div class="form-group">
+                            <label>Roof Condition - Optional (for solar eligibility)</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="roofGood" name="roofCondition" value="good">
+                                    <span>Good (10+ years left)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="roofFair" name="roofCondition" value="fair">
+                                    <span>Fair (5-10 years)</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="roofPoor" name="roofCondition" value="poor">
+                                    <span>Poor (replace soon)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Analyze My Building</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Results Section (Hidden by default) -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-container">
+                    <!-- Summary Card -->
+                    <div class="summary-card">
+                        <div class="summary-header">
+                            <h2>Your Energy Retrofit Analysis</h2>
+                            <button class="btn-secondary" id="newAnalysisBtn">← New Analysis</button>
+                        </div>
+                        <div class="summary-grid">
+                            <div class="summary-item">
+                                <span class="summary-label">Location</span>
+                                <span class="summary-value" id="resultLocation">—</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Building Type</span>
+                                <span class="summary-value" id="resultBuildingType">—</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Current Fuel</span>
+                                <span class="summary-value" id="resultFuel">—</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Annual Spend</span>
+                                <span class="summary-value" id="resultSpend">—</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Top Recommendations -->
+                    <div class="recommendations-section">
+                        <h3 class="section-title">Top Recommendations</h3>
+                        <p class="section-subtitle">Ranked by ROI in your location</p>
+
+                        <div class="recommendations-grid" id="recommendationsGrid">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Financing Scenarios -->
+                    <div class="financing-section" id="financingSection" style="display: none;">
+                        <h3 class="section-title">Financing Your Top Retrofit</h3>
+                        <div class="financing-grid" id="financingGrid">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Cold Climate Warning (if applicable) -->
+                    <div class="alert alert-warning" id="coldClimateAlert" style="display: none;">
+                        <span class="alert-icon">⚠️</span>
+                        <div class="alert-content">
+                            <strong>Cold Climate Note:</strong>
+                            <p id="coldClimateMessage"></p>
+                        </div>
+                    </div>
+
+                    <!-- Data Transparency -->
+                    <div class="transparency-section">
+                        <h3 class="section-title">How We Calculated This</h3>
+                        <details class="details-box">
+                            <summary>Data Sources & Assumptions</summary>
+                            <div class="details-content" id="methodologyContent">
+                                <!-- Populated by JavaScript -->
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Empty State (if no data) -->
+            <section class="empty-state" id="emptyState" style="display: none;">
+                <div class="empty-state-content">
+                    <h2>No results found</h2>
+                    <p>Check your postal code and try again.</p>
+                    <button class="btn btn-primary" id="emptyStateBtn">← Back to Form</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><strong>Building Energy Advisor V2</strong></p>
+            <p>Phase 1: Data Layer</p>
+            <p><small>Data verified Q1 2026 | Quarterly updates | <a href="#" class="footer-link">See methodology</a></small></p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/geo.js"></script>
+    <script src="js/validators.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/finance.js"></script>
+    <script src="js/formatter.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
