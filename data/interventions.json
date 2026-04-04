@@ -1,0 +1,621 @@
+{
+  "ashp": {
+    "id": "ashp",
+    "name": "Air-Source Heat Pump",
+    "icon": "♨️",
+    "category": "Electrification",
+    "costRange": [8000, 20000],
+    "specs": {
+      "standard": {
+        "hspf2Min": 7.0,
+        "cop": 2.5,
+        "minTemp": -10,
+        "note": "Standard units perform well down to -10°C"
+      },
+      "coldClimate": {
+        "hspf2Min": 8.0,
+        "cop": 3.0,
+        "minTemp": -30,
+        "note": "Cold-climate rated units essential for AB/SK winters"
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": ["cold"],
+      "appliesToProvinces": ["AB", "SK", "MB"],
+      "costAdder": 0.20,
+      "message": "Alberta & Saskatchewan require HSPF2 ≥ 8.0 for code compliance and winter reliability below -15°C.",
+      "costAdderDisplayMessage": "20% cost premium for cold-climate rated unit"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.45,
+          "cold": 0.38,
+          "heatingFraction": 0.70,
+          "note": "Heating is ~70% of residential gas bill; DHW unchanged"
+        },
+        "heatingOil": {
+          "mild": 0.55,
+          "cold": 0.48
+        },
+        "propane": {
+          "mild": 0.50,
+          "cold": 0.42
+        },
+        "electricBaseboard": {
+          "mild": 0.40,
+          "cold": 0.35
+        },
+        "electricHeatPump": {
+          "mild": 0.05,
+          "cold": 0.04,
+          "note": "Upgrading from standard ASHP to cold-climate ASHP"
+        },
+        "districtHeating": {
+          "mild": 0.20,
+          "cold": 0.15
+        },
+        "wood": {
+          "mild": 0.30,
+          "cold": 0.25
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 1.0,
+      "residentialCondo": 0.7,
+      "residentialMulti": 0.8,
+      "commercialOffice": 0.7,
+      "commercialRetail": 0.7,
+      "institutional": 0.6,
+      "industrialLight": 0.5,
+      "warehouse": 0.4
+    },
+    "description": "Moves heat from outside air into your building using refrigerant cycles — achieving 2–4x the efficiency of electric resistance heating. Modern cold-climate units operate effectively down to −30°C.",
+    "incentives": [
+      "Canada Greener Homes Grant (up to $5,600)",
+      "Provincial utility rebates (varies by province)"
+    ],
+    "exploreData": {
+      "whatItIs": "A heat pump that extracts thermal energy from outdoor air and moves it indoors for heating — or reverses the process for cooling. Unlike furnaces that generate heat, heat pumps transfer it, achieving 200–400% efficiency (COP 2–4).",
+      "typicalCost": "$8,000 – $20,000 installed (single-zone to multi-zone)",
+      "typicalSavings": "35–55% reduction in heating costs vs. fossil fuels",
+      "paybackRange": "6–12 years (faster with incentives)",
+      "bestFor": "Residential buildings in most Canadian provinces; most effective where grid emissions are low (QC, BC, MB, ON)",
+      "implementation": [
+        "Get an EnerGuide home evaluation to confirm sizing",
+        "Obtain 3 quotes from licensed HVAC contractors",
+        "Apply for Canada Greener Homes Grant before work begins",
+        "In AB/SK: Specify cold-climate rated unit (HSPF2 ≥ 8.2) for winter reliability",
+        "Consider if existing ductwork can be reused (ducted systems) or go ductless mini-split"
+      ],
+      "sources": "NRCan Canada Greener Homes program; CMHC retrofit guide 2024; ASHRAE 90.1"
+    }
+  },
+  "gshp": {
+    "id": "gshp",
+    "name": "Ground-Source Heat Pump",
+    "icon": "🌍",
+    "category": "Electrification",
+    "costRange": [20000, 50000],
+    "specs": {
+      "vertical": {
+        "boreholeDepth": 150,
+        "cop": 4.0,
+        "note": "Deep borehole required"
+      },
+      "horizontal": {
+        "loopArea": "2-4 acres",
+        "cop": 3.5,
+        "note": "Requires significant land access"
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": [],
+      "note": "GSHP not restricted by cold climate (stable ground temps)"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.55,
+          "cold": 0.50,
+          "heatingFraction": 0.70
+        },
+        "heatingOil": {
+          "mild": 0.65,
+          "cold": 0.60
+        },
+        "propane": {
+          "mild": 0.60,
+          "cold": 0.55
+        },
+        "electricBaseboard": {
+          "mild": 0.50,
+          "cold": 0.48
+        },
+        "electricHeatPump": {
+          "mild": 0.10,
+          "cold": 0.10
+        },
+        "districtHeating": {
+          "mild": 0.25,
+          "cold": 0.20
+        },
+        "wood": {
+          "mild": 0.40,
+          "cold": 0.35
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 0.7,
+      "residentialCondo": 0.3,
+      "residentialMulti": 0.5,
+      "commercialOffice": 0.9,
+      "commercialRetail": 0.6,
+      "institutional": 1.0,
+      "industrialLight": 0.8,
+      "warehouse": 0.6
+    },
+    "description": "Uses stable ground temperatures (8–12°C year-round in Canada) via buried loops for higher efficiency than air-source systems. Requires land access for horizontal loops or drilling for vertical boreholes.",
+    "incentives": [
+      "NRC IRAP for commercial buildings",
+      "Clean Growth Program",
+      "Canada Greener Homes Loan ($40K interest-free, 10-year term)"
+    ],
+    "exploreData": {
+      "whatItIs": "Buries refrigerant or water loops underground (or in a water body) to exchange heat with the earth. Ground temperatures are stable year-round, giving COP of 3–5 — higher than air-source in cold winters. Suitable for both heating and cooling.",
+      "typicalCost": "$20,000 – $50,000+ (residential); $100K+ for large commercial",
+      "typicalSavings": "50–70% vs. fossil fuel heating",
+      "paybackRange": "10–20 years",
+      "bestFor": "Institutions, large commercial buildings, and rural single-family homes with land access. Strongest ROI in provinces with low electricity rates (QC, MB, BC)",
+      "implementation": [
+        "Commission a geothermal feasibility assessment",
+        "Determine loop type: horizontal (more land, less drilling) vs. vertical (small footprint, higher cost)",
+        "Secure drilling permits from municipal authority",
+        "Design to CanGEA standards (Canadian GeoExchange Coalition)",
+        "Pair with radiant floor heating for maximum efficiency"
+      ],
+      "sources": "CanGEA (Canadian GeoExchange Coalition); NRCan RETScreen; ASHRAE Handbook HVAC Systems"
+    }
+  },
+  "envelope": {
+    "id": "envelope",
+    "name": "Building Envelope Upgrade",
+    "icon": "🏠",
+    "category": "Efficiency",
+    "costRange": [5000, 25000],
+    "specs": {
+      "airSealing": {
+        "cost": 3000,
+        "savings": 0.05,
+        "note": "Caulking, weatherstripping, rim joist sealing"
+      },
+      "atticInsulation": {
+        "cost": 5000,
+        "savings": 0.10,
+        "target": "R-50 to R-60"
+      },
+      "windows": {
+        "cost": 8000,
+        "savings": 0.08,
+        "note": "Triple-pane in cold climates, double-pane low-e elsewhere"
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": [],
+      "note": "Envelope upgrades benefit all climates equally"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.25,
+          "cold": 0.25,
+          "note": "Heating load reduction, independent of climate"
+        },
+        "heatingOil": {
+          "mild": 0.28,
+          "cold": 0.28
+        },
+        "propane": {
+          "mild": 0.26,
+          "cold": 0.26
+        },
+        "electricBaseboard": {
+          "mild": 0.32,
+          "cold": 0.32
+        },
+        "electricHeatPump": {
+          "mild": 0.20,
+          "cold": 0.20,
+          "note": "Reduces heat pump size needed"
+        },
+        "districtHeating": {
+          "mild": 0.22,
+          "cold": 0.22
+        },
+        "wood": {
+          "mild": 0.22,
+          "cold": 0.22
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 1.0,
+      "residentialCondo": 0.9,
+      "residentialMulti": 0.9,
+      "commercialOffice": 0.8,
+      "commercialRetail": 0.7,
+      "institutional": 0.8,
+      "industrialLight": 0.6,
+      "warehouse": 0.5
+    },
+    "description": "Reduces heat loss at the source through insulation upgrades, air sealing, and window replacement. Technology-agnostic — stacks effectively with any heating system change.",
+    "incentives": [
+      "Canada Greener Homes Grant (up to $5,600)",
+      "EnerGuide evaluation required",
+      "Provincial top-up grants (varies by province)"
+    ],
+    "exploreData": {
+      "whatItIs": "A set of measures that reduce the rate at which your building loses heat to the outdoors. The building envelope — walls, roof, foundation, windows, and air barrier — is responsible for 30–50% of a typical Canadian building's heating load. Improving it reduces demand before you address the heating system.",
+      "typicalCost": "$5,000 – $25,000 (varies widely by scope and building age)",
+      "typicalSavings": "20–35% heating cost reduction; stacks with other upgrades",
+      "paybackRange": "8–14 years (standalone); faster when combined with heating system upgrade",
+      "bestFor": "Pre-2000 buildings in all provinces. Essential first step before right-sizing a new heating system — an oversized heat pump in a leaky building is an expensive mistake.",
+      "implementation": [
+        "Book a certified EnerGuide energy audit to identify priority areas",
+        "Air sealing is typically highest ROI — attic hatches, penetrations, rim joists",
+        "Insulate attic to minimum R-50 (R-60 in Prairie provinces)",
+        "Consider exterior insulation to avoid thermal bridging",
+        "Triple-pane windows for extreme climates; double-pane low-e elsewhere"
+      ],
+      "sources": "NRCan EnerGuide program; Canada Greener Homes technical guide; CMHC Healthy Housing"
+    }
+  },
+  "solar": {
+    "id": "solar",
+    "name": "Solar PV System",
+    "icon": "☀️",
+    "category": "Generation",
+    "costRange": [15000, 40000],
+    "specs": {
+      "residential8kW": {
+        "cost": 16000,
+        "output": 8000,
+        "payback": 12
+      },
+      "commercial50kW": {
+        "cost": 80000,
+        "output": 50000,
+        "payback": 8
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": [],
+      "note": "Solar performs well in cold climates (less temperature derating)"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.20,
+          "cold": 0.20,
+          "note": "Offset electricity consumption only"
+        },
+        "heatingOil": {
+          "mild": 0.18,
+          "cold": 0.18
+        },
+        "propane": {
+          "mild": 0.18,
+          "cold": 0.18
+        },
+        "electricBaseboard": {
+          "mild": 0.45,
+          "cold": 0.45
+        },
+        "electricHeatPump": {
+          "mild": 0.40,
+          "cold": 0.40,
+          "note": "Complements heat pump electricity consumption"
+        },
+        "districtHeating": {
+          "mild": 0.20,
+          "cold": 0.20
+        },
+        "wood": {
+          "mild": 0.20,
+          "cold": 0.20
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 0.9,
+      "residentialCondo": 0.3,
+      "residentialMulti": 0.6,
+      "commercialOffice": 0.8,
+      "commercialRetail": 0.9,
+      "institutional": 0.9,
+      "industrialLight": 1.0,
+      "warehouse": 1.0
+    },
+    "description": "Roof-mounted photovoltaic panels convert sunlight into electricity, offsetting grid consumption. Value depends heavily on electricity rates and net metering policy in your province.",
+    "incentives": [
+      "Canada Greener Homes Loan ($40K interest-free)",
+      "Net metering available in all provinces (varies)",
+      "SR&ED tax credit for commercial R&D installations"
+    ],
+    "exploreData": {
+      "whatItIs": "Photovoltaic panels installed on your roof or ground-mount convert solar radiation into DC electricity, which an inverter converts to AC for use in the building. Excess generation is exported to the grid under net metering agreements and credited to your bill.",
+      "typicalCost": "$15,000 – $40,000 for 8–15 kW residential; $50K–$300K+ commercial",
+      "typicalSavings": "40–60% electricity bill reduction in high-irradiance provinces",
+      "paybackRange": "8–15 years (residential); 6–10 years (commercial with SR&ED)",
+      "bestFor": "Electrically heated buildings and buildings with high daytime electricity loads. Most cost-effective in provinces with high electricity rates (NS, PEI, NB) or strong net metering (BC, AB, ON)",
+      "implementation": [
+        "Get a solar site assessment (shading, roof age, orientation)",
+        "Confirm net metering terms with your utility before proceeding",
+        "Size system to your annual consumption, not peak load",
+        "Choose Tier 1 panels (Jinko, LONGi, Canadian Solar) with 25-yr warranty",
+        "Battery storage only if grid reliability is a concern — ROI rarely positive in Canada currently"
+      ],
+      "sources": "CanSIA (Canadian Solar Industries Association); NRCan RETScreen; provincial utility net metering tariffs"
+    }
+  },
+  "smartControls": {
+    "id": "smartControls",
+    "name": "Smart Building Controls",
+    "icon": "🤖",
+    "category": "Controls",
+    "costRange": [2000, 12000],
+    "specs": {
+      "residential": {
+        "thermostat": 500,
+        "sensors": 1000,
+        "integration": 500
+      },
+      "commercial": {
+        "bas": 10000,
+        "sensors": 5000,
+        "integration": 3000
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": [],
+      "note": "Controls benefit all climates equally"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.15,
+          "cold": 0.15
+        },
+        "heatingOil": {
+          "mild": 0.15,
+          "cold": 0.15
+        },
+        "propane": {
+          "mild": 0.14,
+          "cold": 0.14
+        },
+        "electricBaseboard": {
+          "mild": 0.20,
+          "cold": 0.20
+        },
+        "electricHeatPump": {
+          "mild": 0.14,
+          "cold": 0.14
+        },
+        "districtHeating": {
+          "mild": 0.18,
+          "cold": 0.18
+        },
+        "wood": {
+          "mild": 0.10,
+          "cold": 0.10
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 0.8,
+      "residentialCondo": 0.9,
+      "residentialMulti": 0.9,
+      "commercialOffice": 1.0,
+      "commercialRetail": 0.9,
+      "institutional": 1.0,
+      "industrialLight": 0.9,
+      "warehouse": 0.9
+    },
+    "description": "Smart thermostats, occupancy sensors, and automated scheduling eliminate conditioning of unoccupied spaces. Fastest payback of any intervention category — 3–5 years in commercial buildings.",
+    "incentives": [
+      "Eligible under some utility demand-response programs",
+      "Commercial energy efficiency rebates (varies by utility)"
+    ],
+    "exploreData": {
+      "whatItIs": "A range of hardware and software that automates when and how much your building is heated, cooled, ventilated, and lit. From simple programmable thermostats ($50–$500) to full Building Automation Systems (BAS) with zone-level control, sensors, and analytics.",
+      "typicalCost": "$2,000 – $12,000 (residential to mid-size commercial)",
+      "typicalSavings": "12–20% total energy reduction; up to 30% in commercial with occupancy sensors",
+      "paybackRange": "2–6 years — consistently the fastest-payback upgrade",
+      "bestFor": "All building types. Especially high-value in commercial and institutional buildings with variable occupancy schedules. Often the right first step before capital-intensive upgrades.",
+      "implementation": [
+        "Audit current thermostat and controls setup",
+        "For residential: install smart thermostat (Nest, Ecobee) — DIY-friendly",
+        "For commercial: engage a mechanical engineer for BAS specification",
+        "Add CO₂/occupancy sensors to ventilation zones for demand-controlled ventilation",
+        "Review utility demand-response programs — passive load shifting can generate credits"
+      ],
+      "sources": "ASHRAE 90.1 controls requirements; NRCan commercial building energy benchmarking; CBOC (Commercial Building Optimization Consortium)"
+    }
+  },
+  "dualEnergy": {
+    "id": "dualEnergy",
+    "name": "Dual-Energy System",
+    "icon": "⚡",
+    "category": "Hybrid",
+    "costRange": [6000, 18000],
+    "specs": {
+      "ashpPlusGas": {
+        "ashp": 12000,
+        "controls": 1000,
+        "integration": 500,
+        "note": "Retains existing furnace as backup"
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": ["cold"],
+      "costAdder": 0.0,
+      "message": "Dual-energy is ideal for AB/SK: ASHP handles mild weather, gas backup for extreme cold. No cold-climate penalty."
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.30,
+          "cold": 0.28,
+          "heatingFraction": 0.70,
+          "note": "ASHP runs 70% of heating season; gas backup for extremes"
+        },
+        "heatingOil": {
+          "mild": 0.38,
+          "cold": 0.35
+        },
+        "propane": {
+          "mild": 0.35,
+          "cold": 0.32
+        },
+        "electricBaseboard": {
+          "mild": 0.10,
+          "cold": 0.08
+        },
+        "electricHeatPump": {
+          "mild": 0.05,
+          "cold": 0.04
+        },
+        "districtHeating": {
+          "mild": 0.15,
+          "cold": 0.12
+        },
+        "wood": {
+          "mild": 0.25,
+          "cold": 0.22
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 0.9,
+      "residentialCondo": 0.8,
+      "residentialMulti": 0.8,
+      "commercialOffice": 0.7,
+      "commercialRetail": 0.6,
+      "institutional": 0.5,
+      "industrialLight": 0.4,
+      "warehouse": 0.3
+    },
+    "description": "Pairs a heat pump for mild-weather operation with an existing fossil fuel backup for extreme cold. Lower upfront cost than full electrification with meaningful decarbonization — an effective transition strategy.",
+    "incentives": [
+      "Canada Greener Homes eligible",
+      "Énergir dual-energy preferential rate (Quebec)",
+      "Some provincial utilities offer hybrid system incentives"
+    ],
+    "exploreData": {
+      "whatItIs": "A dual-energy (or hybrid) system runs a heat pump as the primary heating source during mild temperatures, then automatically switches to a gas or oil backup when outdoor temperatures drop below an efficiency threshold (typically −10°C to −15°C). This captures most of the savings without requiring a cold-climate rated heat pump.",
+      "typicalCost": "$6,000 – $18,000 (lower if existing furnace is retained as backup)",
+      "typicalSavings": "25–40% vs. fossil-only heating",
+      "paybackRange": "5–10 years",
+      "bestFor": "Buildings in QC, ON, and Atlantic provinces where Énergir/utility dual-energy rates apply. Good interim strategy for buildings not yet ready for full electrification (old wiring, poor insulation).",
+      "implementation": [
+        "Confirm dual-energy rate availability with your gas utility",
+        "Install a heat pump sized for ~80% of peak load (not 100%)",
+        "Set fuel changeover point based on local electricity vs. gas price crossover",
+        "Retain existing furnace/boiler as backup — reduces capital cost significantly",
+        "Plan full electrification as envelope upgrades proceed over time"
+      ],
+      "sources": "Énergir dual-energy program documentation; Hydro-Québec dual-energy tariff; NRCan hybrid heat pump guidance"
+    }
+  },
+  "ledLighting": {
+    "id": "ledLighting",
+    "name": "LED + Lighting Controls",
+    "icon": "💡",
+    "category": "Efficiency",
+    "costRange": [1500, 10000],
+    "specs": {
+      "residential": {
+        "cost": 2000,
+        "bulbs": 50,
+        "savings": 0.10
+      },
+      "commercial": {
+        "cost": 8000,
+        "fixtures": 200,
+        "sensors": 50,
+        "savings": 0.15
+      }
+    },
+    "coldClimateFlag": {
+      "appliesToZones": [],
+      "note": "LED savings independent of climate"
+    },
+    "savings": {
+      "byFuel": {
+        "naturalGas": {
+          "mild": 0.05,
+          "cold": 0.05,
+          "note": "Lighting is electric, not gas"
+        },
+        "heatingOil": {
+          "mild": 0.05,
+          "cold": 0.05
+        },
+        "propane": {
+          "mild": 0.05,
+          "cold": 0.05
+        },
+        "electricBaseboard": {
+          "mild": 0.14,
+          "cold": 0.14
+        },
+        "electricHeatPump": {
+          "mild": 0.12,
+          "cold": 0.12
+        },
+        "districtHeating": {
+          "mild": 0.08,
+          "cold": 0.08
+        },
+        "wood": {
+          "mild": 0.06,
+          "cold": 0.06
+        }
+      }
+    },
+    "suitability": {
+      "residentialSingle": 0.6,
+      "residentialCondo": 0.7,
+      "residentialMulti": 0.8,
+      "commercialOffice": 1.0,
+      "commercialRetail": 1.0,
+      "institutional": 1.0,
+      "industrialLight": 1.0,
+      "warehouse": 1.0
+    },
+    "description": "Replacing fluorescent and incandescent fixtures with LED reduces lighting energy consumption by 50–75%. Adding occupancy sensors and daylight controls pushes savings further. Shortest payback of any upgrade.",
+    "incentives": [
+      "Utility rebates widely available across all provinces",
+      "saveONenergy (ON), BC Hydro Power Smart (BC), Efficiency Nova Scotia",
+      "EfficiencyPEI commercial programs"
+    ],
+    "exploreData": {
+      "whatItIs": "LED (Light Emitting Diode) technology uses 50–75% less electricity than fluorescent (T8/T12) and 85% less than incandescent, with a 50,000+ hour lifespan vs. 10,000 for fluorescent. Paired with occupancy sensors and daylight harvesting controls, total lighting energy can be reduced by 60–80% in commercial buildings.",
+      "typicalCost": "$1,500 – $10,000 (residential to mid-size commercial retrofit)",
+      "typicalSavings": "50–75% of lighting energy; 5–15% of total building energy in commercial",
+      "paybackRange": "1–4 years — shortest of any building upgrade",
+      "bestFor": "Commercial, retail, institutional, and warehouse buildings with high lighting loads and long operating hours. Residential impact is smaller but still positive.",
+      "implementation": [
+        "Conduct a lighting audit to map fixture types, wattage, and hours of use",
+        "Specify DLC-listed (DesignLights Consortium) fixtures to qualify for utility rebates",
+        "Add occupancy/vacancy sensors in low-traffic areas (corridors, storage, washrooms)",
+        "Consider daylight sensors near windows for automatic dimming",
+        "Check utility rebate programs before purchasing — can cover 30–50% of project cost"
+      ],
+      "sources": "DesignLights Consortium (DLC) qualified products list; NRCan energy efficiency standards; provincial utility rebate schedules"
+    }
+  }
+}

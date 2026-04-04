@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "releaseDate": "2026-04-04",
+  "updates": [
+    {
+      "version": "2.0.0",
+      "date": "2026-04-04",
+      "scope": "Initial release",
+      "changes": [
+        "Replaced v1 single-file architecture with modular v2 design",
+        "Updated grid emission factors to CER 2024 actual data",
+        "Rebaselined utility rates to Q1 2026 (ATCO, BC Hydro, Hydro-Québec, Enbridge, etc.)",
+        "Replaced cost scaling formula with building-type lookup tables",
+        "Separated heating vs. DHW fraction in savings calculations",
+        "Added cold-climate ASHP penalty (20% cost adder for AB/SK)",
+        "Added postal code HDD lookup (412 postal prefixes, ~49 KB)",
+        "Implemented financing scenarios (cash vs. loan payback)",
+        "Added ranking logic decomposition (show why recommendation won)",
+        "Added confidence intervals on all estimates",
+        "Created comprehensive data sourcing documentation"
+      ],
+      "dataUpdates": {
+        "provinces.json": "All 10 provinces; utility rates, grid factors, incentives updated to Q1 2026",
+        "postal-codes.json": "412 postal code prefixes with HDD values from NRCAN",
+        "interventions.json": "7 retrofits with updated costs, savings multipliers, cold-climate specs",
+        "cost-models.json": "Building-type cost curves (replaces linear formula)"
+      },
+      "sources": [
+        "CER National Electricity System Model 2024",
+        "ATCO Gas, BC Hydro, Hydro-Québec, Enbridge tariff schedules (Jan 2026)",
+        "ECCC National Inventory Report emission factors",
+        "NRCan Canada Greener Homes program (2026)",
+        "NRCAN Heating Degree-Days dataset",
+        "IESO Ontario grid mix (2024)",
+        "Statistics Canada climate data"
+      ]
+    }
+  ],
+  "nextUpdate": {
+    "date": "2026-07-01",
+    "tasks": [
+      "Check utility rates for Q2 2026 updates",
+      "Verify grid factors with CER",
+      "Update incentive amounts (Canada Greener Homes, provincial programs)",
+      "Monitor coal phase-out progress (AB, SK, NS)"
+    ]
+  },
+  "maintenanceSchedule": "Quarterly (Jan, Apr, Jul, Oct)",
+  "dataValidation": {
+    "lastValidated": "2026-04-04",
+    "validationProcess": "Manual review against official utility tariffs, CER data, NRCan sources",
+    "nextValidation": "2026-07-01"
+  }
+}

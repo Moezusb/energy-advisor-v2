@@ -1,0 +1,485 @@
+{
+  "AB": {
+    "name": "Alberta",
+    "utility": {
+      "gas": {
+        "variable": 0.058,
+        "fixed": 16.50,
+        "unit": "$/m³",
+        "source": "ATCO Gas Residential Tariff Schedule (Jan 2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.145,
+        "commercial": 0.138,
+        "source": "ATCO Electric deregulated market average (2026)",
+        "lastUpdated": "2026-01-15"
+      }
+    },
+    "grid": {
+      "factor": 0.48,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.52,
+      "summer": 0.38,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Declining 2–3%/year due to coal phase-out by 2030",
+      "confidence": "high",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "cold",
+      "flag": "ASHP requires HSPF2 ≥ 8.0 cold-climate rated unit"
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "notes": "Requires EnerGuide evaluation first ($300–$500 out-of-pocket). Pre-approval required before work starts.",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "BC": {
+    "name": "British Columbia",
+    "utility": {
+      "gas": {
+        "variable": 0.065,
+        "fixed": 18.00,
+        "unit": "$/m³",
+        "source": "FortisBC Residential Rate Schedule (Jan 2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.1548,
+        "commercial": 0.1295,
+        "source": "BC Hydro Rate Schedule 1101 (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.015,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.018,
+      "summer": 0.012,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Stable (~95% hydro/renewables)",
+      "confidence": "high",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      },
+      {
+        "name": "BC Hydro Power Smart Rebate",
+        "amount": 1500,
+        "currency": "CAD",
+        "url": "https://www.bchydro.com/efficiency-rebates",
+        "notes": "For heat pump installations. Varies by equipment type.",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "MB": {
+    "name": "Manitoba",
+    "utility": {
+      "gas": {
+        "variable": 0.058,
+        "fixed": 15.00,
+        "unit": "$/m³",
+        "source": "Centra Gas Manitoba Residential Rate (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.0853,
+        "commercial": 0.0742,
+        "source": "Manitoba Hydro Rate Schedule (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.003,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.004,
+      "summer": 0.002,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Stable (~99% hydro)",
+      "confidence": "high",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "cold",
+      "flag": "ASHP requires HSPF2 ≥ 8.0 cold-climate rated unit"
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "NB": {
+    "name": "New Brunswick",
+    "utility": {
+      "gas": {
+        "variable": 0.070,
+        "fixed": 17.50,
+        "unit": "$/m³",
+        "source": "Emera Utilities New Brunswick Gas (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.1743,
+        "commercial": 0.1512,
+        "source": "NB Power Residential Rate Schedule (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.28,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.32,
+      "summer": 0.22,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Mixed grid (hydro, gas, some coal). Varies with water availability.",
+      "confidence": "medium",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "NL": {
+    "name": "Newfoundland & Labrador",
+    "utility": {
+      "gas": {
+        "variable": 0.080,
+        "fixed": 19.00,
+        "unit": "$/m³",
+        "source": "Fortis NL Gas Rate Schedule (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.2058,
+        "commercial": 0.1834,
+        "source": "Newfoundland Power Residential Rate (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.025,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.028,
+      "summer": 0.020,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Stable (~98% hydro from Churchill Falls, Muskrat Falls)",
+      "confidence": "high",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "NS": {
+    "name": "Nova Scotia",
+    "utility": {
+      "gas": {
+        "variable": 0.075,
+        "fixed": 18.50,
+        "unit": "$/m³",
+        "source": "Emera Utilities Nova Scotia Gas (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.1926,
+        "commercial": 0.1684,
+        "source": "Nova Scotia Power Residential Rate (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.42,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.48,
+      "summer": 0.32,
+      "source": "CER National Electricity System Model 2024 (coal phase-out accelerating)",
+      "trend": "Declining rapidly: 0.57 (2023) → 0.42 (2024) → expect 0.35–0.40 by 2026 (coal closure)",
+      "confidence": "medium",
+      "note": "Grid is decarbonizing faster than most provinces due to coal shutdowns",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      },
+      {
+        "name": "Efficiency Nova Scotia Residential Program",
+        "amount": 2000,
+        "currency": "CAD",
+        "url": "https://www.efficiencyns.ca/",
+        "notes": "Variable rebates for heat pumps and other upgrades",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "ON": {
+    "name": "Ontario",
+    "utility": {
+      "gas": {
+        "variable": 0.0675,
+        "fixed": 18.00,
+        "unit": "$/m³",
+        "source": "Enbridge Gas Ontario Residential Rate (Jan 2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.2086,
+        "commercial": 0.1847,
+        "source": "Ontario Energy Board Regulated Price Plan + market rates (2026)",
+        "lastUpdated": "2026-01-01",
+        "note": "Rates vary by utility (Toronto Hydro, Hydro One, local distributors). Average shown."
+      }
+    },
+    "grid": {
+      "factor": 0.035,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.08,
+      "summer": 0.02,
+      "source": "IESO (Independent Electricity System Operator) Grid Mix 2024",
+      "trend": "Stable (~60% nuclear, ~25% renewable, ~15% gas)",
+      "confidence": "high",
+      "note": "Winter grid is dirtier (more gas peaking). Summer is much cleaner (more renewables).",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "PE": {
+    "name": "Prince Edward Island",
+    "utility": {
+      "gas": {
+        "variable": 0.085,
+        "fixed": 20.00,
+        "unit": "$/m³",
+        "source": "Island Regulatory and Appeals Commission Gas Rate (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.2146,
+        "commercial": 0.1892,
+        "source": "Maritime Electric Company Residential Rate (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.055,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.065,
+      "summer": 0.040,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Transitioning to renewables (wind investment underway)",
+      "confidence": "medium",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "QC": {
+    "name": "Quebec",
+    "utility": {
+      "gas": {
+        "variable": 0.0598,
+        "fixed": 18.50,
+        "unit": "$/m³",
+        "source": "Énergir (Gaz Métro) Residential Rate Schedule (Jan 2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.0801,
+        "residential_heatpump": 0.0658,
+        "commercial": 0.0689,
+        "source": "Hydro-Québec Rate Schedule (2026) + Dual-Energy Preferential Rate",
+        "lastUpdated": "2026-01-01",
+        "note": "Heat pump rate (Dual-Energy) is lower than standard residential rate"
+      }
+    },
+    "grid": {
+      "factor": 0.002,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.003,
+      "summer": 0.001,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Stable (~99% hydro + wind)",
+      "confidence": "high",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "mild",
+      "flag": null
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      },
+      {
+        "name": "Hydro-Québec Heat Pump Rebate",
+        "amount": 1500,
+        "currency": "CAD",
+        "url": "https://www.hydroquebec.com/",
+        "notes": "Rebate for ASHP or dual-energy heat pump installations",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      },
+      {
+        "name": "Énergir Dual-Energy Preferential Rate",
+        "amount": 0,
+        "type": "rate_reduction",
+        "savings": "~15% on electricity for dual-energy systems",
+        "url": "https://www.energir.com/",
+        "notes": "Special tariff for customers with dual-energy (ASHP + gas backup) systems",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  },
+  "SK": {
+    "name": "Saskatchewan",
+    "utility": {
+      "gas": {
+        "variable": 0.052,
+        "fixed": 15.00,
+        "unit": "$/m³",
+        "source": "SaskEnergy Residential Rate Schedule (2026)",
+        "lastUpdated": "2026-01-15",
+        "nextUpdate": "2026-04-01"
+      },
+      "electricity": {
+        "residential": 0.1676,
+        "commercial": 0.1445,
+        "source": "SaskPower Residential Rate (2026)",
+        "lastUpdated": "2026-01-01"
+      }
+    },
+    "grid": {
+      "factor": 0.52,
+      "unit": "kg CO₂/kWh",
+      "winter": 0.58,
+      "summer": 0.40,
+      "source": "CER National Electricity System Model 2024",
+      "trend": "Declining 2–3%/year due to coal phase-out by 2035",
+      "confidence": "medium",
+      "lastUpdated": "2024-12-31",
+      "nextUpdate": "2026-01-01"
+    },
+    "climate": {
+      "zone": "cold",
+      "flag": "ASHP requires HSPF2 ≥ 8.0 cold-climate rated unit"
+    },
+    "incentives": [
+      {
+        "name": "Canada Greener Homes Grant",
+        "amount": 5600,
+        "currency": "CAD",
+        "url": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+        "active": true,
+        "lastUpdated": "2026-01-15"
+      }
+    ]
+  }
+}

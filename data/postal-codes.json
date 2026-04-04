@@ -1,0 +1,3820 @@
+{
+  "M1A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M1B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M1C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M2A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M2H": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M2N": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M2R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M3A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M3B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M3C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4E": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4G": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4J": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4K": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4L": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4M": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4N": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4P": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4S": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4T": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4V": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4W": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4X": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M4Y": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5E": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5G": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5H": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5J": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5K": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5L": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5M": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5N": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5P": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5S": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5T": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5V": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5W": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M5X": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6E": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6G": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6H": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6J": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6K": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6L": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6M": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6N": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6P": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M6S": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M7A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M7R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M7V": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8V": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8W": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8X": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8Y": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M8Z": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9A": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9B": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9C": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9E": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9L": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9M": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9N": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9P": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9R": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9S": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9V": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "M9W": {
+    "city": "Toronto",
+    "province": "ON",
+    "hdd": 3400,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1A": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1C": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1E": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1G": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1H": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1J": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "L1K": {
+    "city": "Oshawa",
+    "province": "ON",
+    "hdd": 3450,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "P7A": {
+    "city": "Thunder Bay",
+    "province": "ON",
+    "hdd": 4600,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "P7B": {
+    "city": "Thunder Bay",
+    "province": "ON",
+    "hdd": 4600,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "P7C": {
+    "city": "Thunder Bay",
+    "province": "ON",
+    "hdd": 4600,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "P7E": {
+    "city": "Thunder Bay",
+    "province": "ON",
+    "hdd": 4600,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "K1A": {
+    "city": "Ottawa",
+    "province": "ON",
+    "hdd": 3680,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "K1N": {
+    "city": "Ottawa",
+    "province": "ON",
+    "hdd": 3680,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "K2C": {
+    "city": "Gloucester",
+    "province": "ON",
+    "hdd": 3680,
+    "gridZone": "central",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "H1A": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1B": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1C": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1E": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1G": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1H": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1J": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1K": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1L": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1M": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1N": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1P": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1R": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1S": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1T": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1V": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1W": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1X": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1Y": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H1Z": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2A": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2B": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2C": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2E": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2G": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2H": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2J": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2K": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2L": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2M": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2N": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2P": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2R": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2S": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2T": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2V": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2W": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2X": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2Y": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H2Z": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3A": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3B": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3C": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3E": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3G": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3H": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3J": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3K": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3L": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3M": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3N": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3P": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3R": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3S": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3T": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3V": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3W": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3X": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3Y": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H3Z": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4A": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4B": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4C": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4E": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4G": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4H": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4J": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4K": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4L": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4M": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4N": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4P": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4R": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4S": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4T": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4V": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4W": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4X": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4Y": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H4Z": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H5A": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H5B": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "H5C": {
+    "city": "Montreal",
+    "province": "QC",
+    "hdd": 3000,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1A": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1B": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1C": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1E": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1G": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1H": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1J": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1K": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1L": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1M": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1N": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1P": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1R": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1S": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1T": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1V": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1W": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "G1X": {
+    "city": "Quebec City",
+    "province": "QC",
+    "hdd": 3200,
+    "gridZone": "hydro_quebec",
+    "incentives": [
+      "greener_homes",
+      "hq_rebate"
+    ]
+  },
+  "T1A": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1B": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1C": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1E": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1G": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1H": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1J": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1K": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1L": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1M": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1N": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1P": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1R": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1S": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1T": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1V": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1W": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1X": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1Y": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T1Z": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2A": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2B": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2C": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2E": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2G": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2H": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2J": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2K": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2L": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2M": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2N": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2P": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2R": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2S": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2T": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2V": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2W": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2X": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2Y": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T2Z": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3A": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3B": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3C": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3E": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3G": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3H": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3J": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3K": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3L": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3M": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3N": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3P": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3R": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3S": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3T": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3V": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3W": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3X": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3Y": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T3Z": {
+    "city": "Calgary",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4A": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4B": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4C": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4E": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4G": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4H": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4J": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4K": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4L": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4M": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4N": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4P": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4R": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4S": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4T": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4V": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4W": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4X": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4Y": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T4Z": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5A": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5B": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5C": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5E": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5G": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5H": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5J": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5K": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5L": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5M": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5N": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5P": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5R": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5S": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5T": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5V": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5W": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5X": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5Y": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T5Z": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6A": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6B": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6C": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6E": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6G": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6H": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6J": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6K": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6L": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6M": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6N": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6P": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6R": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6S": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6T": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6V": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6W": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6X": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6Y": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T6Z": {
+    "city": "Edmonton",
+    "province": "AB",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7A": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7B": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7C": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7E": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7G": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7H": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7J": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7K": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7L": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7M": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7N": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7P": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7R": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7S": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7T": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7V": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7W": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7X": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7Y": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T7Z": {
+    "city": "Red Deer",
+    "province": "AB",
+    "hdd": 3400,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8A": {
+    "city": "Lethbridge",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8B": {
+    "city": "Lethbridge",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8C": {
+    "city": "Lethbridge",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8E": {
+    "city": "Lethbridge",
+    "province": "AB",
+    "hdd": 3200,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8G": {
+    "city": "Grande Prairie",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8H": {
+    "city": "Grande Prairie",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8J": {
+    "city": "Grande Prairie",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8K": {
+    "city": "Grande Prairie",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8L": {
+    "city": "Grande Prairie",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8M": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8N": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8P": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8R": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8S": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8T": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8V": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8W": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8X": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8Y": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T8Z": {
+    "city": "Fort McMurray",
+    "province": "AB",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9A": {
+    "city": "Fort Macleod",
+    "province": "AB",
+    "hdd": 3300,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9B": {
+    "city": "Fort Macleod",
+    "province": "AB",
+    "hdd": 3300,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9C": {
+    "city": "Fort Macleod",
+    "province": "AB",
+    "hdd": 3300,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9E": {
+    "city": "Peace River",
+    "province": "AB",
+    "hdd": 3900,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9G": {
+    "city": "Peace River",
+    "province": "AB",
+    "hdd": 3900,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9H": {
+    "city": "Peace River",
+    "province": "AB",
+    "hdd": 3900,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9J": {
+    "city": "Slave Lake",
+    "province": "AB",
+    "hdd": 3700,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9K": {
+    "city": "Slave Lake",
+    "province": "AB",
+    "hdd": 3700,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9L": {
+    "city": "Slave Lake",
+    "province": "AB",
+    "hdd": 3700,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9M": {
+    "city": "Hindton",
+    "province": "AB",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9N": {
+    "city": "Hindton",
+    "province": "AB",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9P": {
+    "city": "Hindton",
+    "province": "AB",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9R": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9S": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9T": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9V": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9W": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "T9X": {
+    "city": "Whitecourt",
+    "province": "AB",
+    "hdd": 3650,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "V1A": {
+    "city": "Kamloops",
+    "province": "BC",
+    "hdd": 3300,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V2A": {
+    "city": "Vernon",
+    "province": "BC",
+    "hdd": 3100,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V3A": {
+    "city": "Abbotsford",
+    "province": "BC",
+    "hdd": 2800,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V4A": {
+    "city": "Chilliwack",
+    "province": "BC",
+    "hdd": 2900,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V5A": {
+    "city": "Vancouver",
+    "province": "BC",
+    "hdd": 2600,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V6A": {
+    "city": "Vancouver",
+    "province": "BC",
+    "hdd": 2600,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V7A": {
+    "city": "West Vancouver",
+    "province": "BC",
+    "hdd": 2600,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V8A": {
+    "city": "Victoria",
+    "province": "BC",
+    "hdd": 2400,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "V9A": {
+    "city": "Sidney",
+    "province": "BC",
+    "hdd": 2400,
+    "gridZone": "bc_hydro",
+    "incentives": [
+      "greener_homes",
+      "bc_rebate"
+    ]
+  },
+  "S0A": {
+    "city": "Saskatoon",
+    "province": "SK",
+    "hdd": 3800,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S1A": {
+    "city": "Regina",
+    "province": "SK",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S2A": {
+    "city": "Prince Albert",
+    "province": "SK",
+    "hdd": 3900,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S3A": {
+    "city": "North Battleford",
+    "province": "SK",
+    "hdd": 3900,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S4A": {
+    "city": "Kindersley",
+    "province": "SK",
+    "hdd": 3700,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S5A": {
+    "city": "Swift Current",
+    "province": "SK",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S6A": {
+    "city": "Moose Jaw",
+    "province": "SK",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S7A": {
+    "city": "Regina",
+    "province": "SK",
+    "hdd": 3600,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S8A": {
+    "city": "Estevan",
+    "province": "SK",
+    "hdd": 3500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "S9A": {
+    "city": "Yorkton",
+    "province": "SK",
+    "hdd": 3700,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R0A": {
+    "city": "Winnipeg",
+    "province": "MB",
+    "hdd": 4000,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R1A": {
+    "city": "Winnipeg",
+    "province": "MB",
+    "hdd": 4000,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R2A": {
+    "city": "Winnipeg",
+    "province": "MB",
+    "hdd": 4000,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R3A": {
+    "city": "Winnipeg",
+    "province": "MB",
+    "hdd": 4000,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R4A": {
+    "city": "Brandon",
+    "province": "MB",
+    "hdd": 4100,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R5A": {
+    "city": "Portage la Prairie",
+    "province": "MB",
+    "hdd": 4050,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R6A": {
+    "city": "Selkirk",
+    "province": "MB",
+    "hdd": 4000,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R7A": {
+    "city": "Steinbach",
+    "province": "MB",
+    "hdd": 4050,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "R8A": {
+    "city": "Thompson",
+    "province": "MB",
+    "hdd": 4500,
+    "gridZone": "prairie",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "B0A": {
+    "city": "Halifax",
+    "province": "NS",
+    "hdd": 3700,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "B1A": {
+    "city": "Glace Bay",
+    "province": "NS",
+    "hdd": 3700,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "B2A": {
+    "city": "Sydney",
+    "province": "NS",
+    "hdd": 3800,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "B3A": {
+    "city": "Halifax",
+    "province": "NS",
+    "hdd": 3700,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "B4A": {
+    "city": "Truro",
+    "province": "NS",
+    "hdd": 3750,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "C0A": {
+    "city": "Saint John",
+    "province": "NB",
+    "hdd": 3900,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "C1A": {
+    "city": "Charlottetown",
+    "province": "PE",
+    "hdd": 4050,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "E0A": {
+    "city": "St. John's",
+    "province": "NL",
+    "hdd": 4200,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "E1A": {
+    "city": "St. John's",
+    "province": "NL",
+    "hdd": 4200,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  },
+  "C0B": {
+    "city": "Charlottetown",
+    "province": "PE",
+    "hdd": 4050,
+    "gridZone": "atlantic",
+    "incentives": [
+      "greener_homes"
+    ]
+  }
+}

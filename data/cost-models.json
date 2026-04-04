@@ -1,0 +1,220 @@
+{
+  "ashp": {
+    "residential": {
+      "perSqFt": 2.50,
+      "baseMin": 8000,
+      "baseMax": 18000,
+      "note": "Includes electrical panel upgrade if needed",
+      "variants": {
+        "ductless": {
+          "perSqFt": 1.50,
+          "baseMin": 5000,
+          "baseMax": 10000,
+          "zoneCount": 1,
+          "note": "Single-zone mini-split"
+        },
+        "ducted": {
+          "perSqFt": 2.50,
+          "baseMin": 8000,
+          "baseMax": 18000,
+          "zoneCount": 2,
+          "note": "Central system with ductwork"
+        }
+      }
+    },
+    "commercial": {
+      "perSqFt": 1.50,
+      "baseMin": 25000,
+      "baseMax": 60000,
+      "adders": {
+        "engineering": 3000,
+        "controls": 5000,
+        "commissioning": 2000
+      },
+      "note": "Larger systems have lower per-sq-ft cost"
+    },
+    "warehouse": {
+      "perSqFt": 0.80,
+      "baseMin": 15000,
+      "baseMax": 40000,
+      "note": "Minimal heating demand, lower cost"
+    }
+  },
+  "gshp": {
+    "residential": {
+      "perSqFt": 3.00,
+      "baseMin": 25000,
+      "baseMax": 50000,
+      "variants": {
+        "vertical": {
+          "perSqFt": 3.50,
+          "boreholeDepth": "150–200 ft",
+          "note": "Small footprint, higher drilling cost"
+        },
+        "horizontal": {
+          "perSqFt": 2.50,
+          "landRequired": "2–4 acres",
+          "note": "More space, lower drilling cost"
+        }
+      }
+    },
+    "commercial": {
+      "perSqFt": 2.00,
+      "baseMin": 60000,
+      "baseMax": 150000,
+      "adders": {
+        "geotechnicalSurvey": 5000,
+        "drilling": 30000,
+        "engineering": 8000,
+        "commissioning": 3000
+      },
+      "note": "Major installation, significant infrastructure"
+    }
+  },
+  "envelope": {
+    "residential": {
+      "perSqFt": 1.00,
+      "baseMin": 5000,
+      "baseMax": 25000,
+      "breakdown": {
+        "airSealing": {
+          "cost": 3000,
+          "coverage": "whole-building",
+          "savings": 0.05
+        },
+        "atticInsulation": {
+          "costPerSqFt": 0.30,
+          "targetR": "R-50 to R-60",
+          "savings": 0.10
+        },
+        "wallInsulation": {
+          "costPerSqFt": 0.50,
+          "method": "exterior or cavity",
+          "savings": 0.10
+        },
+        "windows": {
+          "costPerWindow": 400,
+          "savings": 0.08
+        }
+      },
+      "note": "Highly variable by scope and building age"
+    },
+    "commercial": {
+      "perSqFt": 2.00,
+      "baseMin": 20000,
+      "baseMax": 150000,
+      "note": "Roofing, windows, insulation for large buildings"
+    }
+  },
+  "solar": {
+    "residential": {
+      "perWatt": 2.00,
+      "systemSizes": {
+        "8kW": {
+          "cost": 16000,
+          "output": 8000,
+          "payback": 12
+        },
+        "10kW": {
+          "cost": 20000,
+          "output": 10000,
+          "payback": 12
+        },
+        "15kW": {
+          "cost": 30000,
+          "output": 15000,
+          "payback": 12
+        }
+      },
+      "note": "Residential costs declining, higher economies of scale"
+    },
+    "commercial": {
+      "perWatt": 1.60,
+      "systemSizes": {
+        "50kW": {
+          "cost": 80000,
+          "output": 50000,
+          "payback": 8
+        },
+        "100kW": {
+          "cost": 160000,
+          "output": 100000,
+          "payback": 7
+        },
+        "250kW": {
+          "cost": 400000,
+          "output": 250000,
+          "payback": 6
+        }
+      },
+      "note": "Commercial rates lower; better payback due to demand charges"
+    },
+    "industrial": {
+      "perWatt": 1.40,
+      "note": "Largest systems get best pricing"
+    }
+  },
+  "smartControls": {
+    "residential": {
+      "thermostat": {
+        "cost": 500,
+        "note": "Smart thermostat + professional install"
+      },
+      "sensors": {
+        "costPerZone": 200,
+        "typical": "2–3 zones"
+      },
+      "integration": {
+        "cost": 500,
+        "note": "Wiring, setup, training"
+      },
+      "total": 2000
+    },
+    "commercial": {
+      "buildingAutomationSystem": {
+        "baseMin": 10000,
+        "perSqFt": 0.05
+      },
+      "sensors": {
+        "costPerZone": 500,
+        "typical": "5–10 zones"
+      },
+      "integration": {
+        "cost": 3000,
+        "note": "Integration with existing HVAC"
+      },
+      "total": 12000
+    }
+  },
+  "dualEnergy": {
+    "residential": {
+      "ashpUnit": 12000,
+      "controls": 1000,
+      "integration": 500,
+      "note": "Retains existing gas furnace as backup",
+      "total": 13500
+    }
+  },
+  "ledLighting": {
+    "residential": {
+      "costPerFixture": 40,
+      "typicalFixtures": 50,
+      "sensors": 500,
+      "integration": 500,
+      "total": 2500
+    },
+    "commercial": {
+      "costPerFixture": 60,
+      "occupancySensors": {
+        "costPerSensor": 100,
+        "typicalSensors": 20
+      },
+      "daylightSensors": {
+        "costPerSensor": 150,
+        "typicalSensors": 5
+      },
+      "integration": 2000,
+      "total": 8000
+    }
+  }
+}
