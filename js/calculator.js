@@ -221,7 +221,8 @@ class AnalysisEngine {
     }
 
     /**
-     * Estimate cost for an intervention
+     * Estimate cost for an intervention with detailed logic
+     * Uses cost-models.json structure: perSqFt, baseMin/Max, variants, adders
      */
     estimateCost(interventionId, intervention, buildingType, squareFeet) {
         const costModel = this.costModelsData[interventionId];
@@ -229,39 +230,56 @@ class AnalysisEngine {
             return null;
         }
 
-        let baseCost;
+        let model = null;
+        let baseCost = 0;
+        let adders = 0;
 
-        // Get building type cost model
+        // Select model based on building type
         if (buildingType.startsWith('residential')) {
-            const model = costModel.residential;
-            baseCost = Math.max(
-                model.baseMin,
-                Math.min(model.baseMax, squareFeet * model.perSqFt)
-            );
-        } else if (buildingType.startsWith('commercial')) {
-            const model = costModel.commercial || costModel.residential;
-            baseCost = Math.max(
-                model.baseMin,
-                Math.min(model.baseMax, squareFeet * model.perSqFt)
-            );
+            model = costModel.residential;
+        } else if (buildingType.startsWith('commercial') || buildingType === 'institutional') {
+            model = costModel.commercial || costModel.residential;
         } else if (buildingType === 'warehouse') {
-            const model = costModel.warehouse || costModel.commercial || costModel.residential;
-            baseCost = Math.max(
-                model.baseMin,
-                Math.min(model.baseMax, squareFeet * model.perSqFt)
-            );
-        } else if (buildingType === 'institutional') {
-            const model = costModel.commercial || costModel.residential;
-            baseCost = Math.max(
-                model.baseMin,
-                Math.min(model.baseMax, squareFeet * model.perSqFt)
-            );
+            model = costModel.warehouse || costModel.commercial || costModel.residential;
         }
 
+        if (!model) {
+            return null;
+        }
+
+        // Calculate base cost: (squareFeet * perSqFt) clamped between min/max
+        const perSqFtCost = squareFeet * (model.perSqFt || 0);
+        baseCost = Math.max(
+            model.baseMin || 0,
+            Math.min(model.baseMax || Infinity, perSqFtCost)
+        );
+
+        // Add commercial adders (engineering, controls, commissioning, etc.)
+        if (model.adders) {
+            adders = Object.values(model.adders).reduce((sum, cost) => sum + cost, 0);
+        }
+
+        // Add fixed costs (thermostat, sensors, etc.)
+        if (model.total) {
+            baseCost = model.total;
+        }
+
+        const finalCost = baseCost + adders;
+
+        // Calculate confidence range (±15% for standard, ±20% for custom)
+        const hasCustomization = model.adders || model.variants;
+        const rangeFactor = hasCustomization ? 0.20 : 0.15;
+
         return {
-            cost: baseCost,
-            low: baseCost * 0.85,
-            high: baseCost * 1.15
+            cost: finalCost,
+            low: finalCost * (1 - rangeFactor),
+            high: finalCost * (1 + rangeFactor),
+            breakdown: {
+                baseCost,
+                adders,
+                total: finalCost,
+                source: `${model.perSqFt || 0}$/sqft + adders`
+            }
         };
     }
 }
