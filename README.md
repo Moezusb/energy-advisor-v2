@@ -1,4 +1,4 @@
-# Building Energy Advisor V2
+# Building Energy Advisor V2 - WIP
 ## Phase 1: Data Layer (Complete)
 
 This is a modular rebuild of the Building Energy Advisor tool with:
