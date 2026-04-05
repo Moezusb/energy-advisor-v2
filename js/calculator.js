@@ -222,7 +222,7 @@ class AnalysisEngine {
 
     /**
      * Estimate cost for an intervention with detailed logic
-     * Uses cost-models.json structure: perSqFt, baseMin/Max, variants, adders
+     * Handles multiple patterns: perSqFt, perWatt, fixed total, systemSizes
      */
     estimateCost(interventionId, intervention, buildingType, squareFeet) {
         const costModel = this.costModelsData[interventionId];
@@ -247,27 +247,51 @@ class AnalysisEngine {
             return null;
         }
 
-        // Calculate base cost: (squareFeet * perSqFt) clamped between min/max
-        const perSqFtCost = squareFeet * (model.perSqFt || 0);
-        baseCost = Math.max(
-            model.baseMin || 0,
-            Math.min(model.baseMax || Infinity, perSqFtCost)
-        );
-
-        // Add commercial adders (engineering, controls, commissioning, etc.)
-        if (model.adders) {
-            adders = Object.values(model.adders).reduce((sum, cost) => sum + cost, 0);
-        }
-
-        // Add fixed costs (thermostat, sensors, etc.)
+        // PATTERN 1: Fixed total cost (smart controls, LED lighting, dual-energy)
         if (model.total) {
             baseCost = model.total;
+        }
+        // PATTERN 2: Per-watt cost with system sizes (solar PV)
+        else if (model.perWatt && model.systemSizes) {
+            // Select system size based on annual spend (proxy for energy usage)
+            // Residential: ~2000-5000 kWh/year typical
+            // Estimate system size: 5-10 kW for residential, 50-250 kW for commercial
+            let systemSize = buildingType.startsWith('residential') ? '10kW' : '100kW';
+            
+            // For residential, scale by building size
+            if (buildingType.startsWith('residential') && squareFeet) {
+                if (squareFeet < 1500) systemSize = '8kW';
+                else if (squareFeet > 3500) systemSize = '15kW';
+                else systemSize = '10kW';
+            }
+
+            const systemData = model.systemSizes[systemSize];
+            if (systemData && systemData.cost) {
+                baseCost = systemData.cost;
+            } else {
+                // Fallback: use perWatt * estimated system size
+                const estimatedWatts = buildingType.startsWith('residential') ? 10000 : 100000;
+                baseCost = estimatedWatts * model.perWatt;
+            }
+        }
+        // PATTERN 3: Per-sqft cost with min/max clamping (ASHP, envelope, etc.)
+        else if (model.perSqFt) {
+            const perSqFtCost = squareFeet * model.perSqFt;
+            baseCost = Math.max(
+                model.baseMin || 0,
+                Math.min(model.baseMax || Infinity, perSqFtCost)
+            );
+        }
+
+        // Add commercial adders (engineering, controls, commissioning, drilling, etc.)
+        if (model.adders) {
+            adders = Object.values(model.adders).reduce((sum, cost) => sum + cost, 0);
         }
 
         const finalCost = baseCost + adders;
 
         // Calculate confidence range (±15% for standard, ±20% for custom)
-        const hasCustomization = model.adders || model.variants;
+        const hasCustomization = model.adders || model.variants || model.systemSizes;
         const rangeFactor = hasCustomization ? 0.20 : 0.15;
 
         return {
@@ -278,7 +302,7 @@ class AnalysisEngine {
                 baseCost,
                 adders,
                 total: finalCost,
-                source: `${model.perSqFt || 0}$/sqft + adders`
+                source: model.perSqFt ? `${model.perSqFt}$/sqft + adders` : 'cost model'
             }
         };
     }
