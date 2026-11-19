@@ -54,7 +54,7 @@ class FinanceCalculator {
             years: 0,
             netMonthlyYear1: annualSavings / 12,
             payoffMonth: 1,
-            description: `Pay $${this.formatCurrency(retrofitCost)} upfront. No financing costs.`
+            description: `Pay ${this.formatCurrency(retrofitCost)} upfront. No financing costs.`
         });
 
         // Scenario 2: 10-year loan @ 7%
@@ -75,8 +75,8 @@ class FinanceCalculator {
             payoffMonth: 10 * 12,
             rate: rate10,
             description: netMonthly10 > 0
-                ? `Pay $${this.formatCurrency(monthlyPayment10)}/month for 10 years. Save $${this.formatCurrency(Math.abs(netMonthly10))}/month in cash flow from year 1.`
-                : `Pay $${this.formatCurrency(monthlyPayment10)}/month. Break even in ~${Math.round(retrofitCost / annualSavings)} years.`
+                ? `Pay ${this.formatCurrency(monthlyPayment10)}/month for 10 years. Save ${this.formatCurrency(Math.abs(netMonthly10))}/month in cash flow from year 1.`
+                : `Pay ${this.formatCurrency(monthlyPayment10)}/month. Break even in ~${Math.round(retrofitCost / annualSavings)} years.`
         });
 
         // Scenario 3: 15-year loan @ 7%
@@ -97,8 +97,8 @@ class FinanceCalculator {
             payoffMonth: 15 * 12,
             rate: rate15,
             description: netMonthly15 > 0
-                ? `Pay $${this.formatCurrency(monthlyPayment15)}/month for 15 years. Save $${this.formatCurrency(Math.abs(netMonthly15))}/month in cash flow from year 1.`
-                : `Pay $${this.formatCurrency(monthlyPayment15)}/month. Break even in ~${Math.round(retrofitCost / annualSavings)} years.`
+                ? `Pay ${this.formatCurrency(monthlyPayment15)}/month for 15 years. Save ${this.formatCurrency(Math.abs(netMonthly15))}/month in cash flow from year 1.`
+                : `Pay ${this.formatCurrency(monthlyPayment15)}/month. Break even in ~${Math.round(retrofitCost / annualSavings)} years.`
         });
 
         return scenarios;
