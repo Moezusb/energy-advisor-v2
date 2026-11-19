@@ -1,7 +1,10 @@
-# Building Energy Advisor V2 - WIP
-## Phase 1: Data Layer (Complete)
+# Building Energy Advisor V2
 
-This is a modular rebuild of the Building Energy Advisor tool with:
+**Live tool:** [moezusb.github.io/energy-advisor-v2](https://moezusb.github.io/energy-advisor-v2/)
+
+A browser-based retrofit screening tool for Canadian buildings. Enter the first three characters of a postal code, building type, heating fuel, and annual energy spend, and get ranked retrofit recommendations with savings ranges, payback, carbon reduction, and cash-versus-loan financing scenarios.
+
+This is a screening tool, not a certified energy audit. It replaces the original [building-energy-advisor](https://github.com/Moezusb/building-energy-advisor) with a modular rebuild that adds:
 - **Zero-cost hosting** (GitHub Pages)
 - **Quarterly data updates** (Q1, Q2, Q3, Q4)
 - **Postal code awareness** (HDD-indexed savings by location)
@@ -11,7 +14,7 @@ This is a modular rebuild of the Building Energy Advisor tool with:
 
 ---
 
-## Phase 1 Status: ✅ COMPLETE
+## Data Layer
 
 All data files created and validated:
 
@@ -162,34 +165,15 @@ All data files created and validated:
 
 ---
 
-## Next Steps (Phase 2)
+## Project Structure
 
-### Frontend Structure (Days 3–4)
-- [ ] Create `index.html` (form + results template)
-- [ ] Build `css/theme.css` (design tokens, Apple palette)
-- [ ] Build `css/components.css` (cards, modals, responsive)
-
-### JavaScript Modules (Days 5–8)
-- [ ] `js/geo.js` — Postal code lookup, HDD retrieval
-- [ ] `js/validators.js` — Input sanity checks
-- [ ] `js/calculator.js` — Analysis engine (multipliers, scoring)
-- [ ] `js/finance.js` — Loan calculations (3 scenarios)
-- [ ] `js/formatter.js` — Currency, percentages, confidence
-- [ ] `js/app.js` — Event listeners, form submission
-
-### Integration & Testing (Days 9–10)
-- [ ] Wire modules together
-- [ ] Test edge cases (extreme climates, large buildings)
-- [ ] Mobile responsiveness
-- [ ] Performance (load time, file size budget)
-
-### Documentation (Day 11)
-- [ ] `docs/METHODOLOGY.md` — How calculations work
-- [ ] `docs/DATA_SOURCES.md` — Where every number came from
-- [ ] `docs/ASSUMPTIONS.md` — Trade-offs, limitations
-- [ ] `docs/FAQ.md` — Common user questions
-
----
+| Path | Purpose |
+|:--|:--|
+| `index.html` | Single-page interface |
+| `js/` | Calculator, financing, postal-code lookup, validation, formatting |
+| `css/` | Theme and components |
+| `data/` | Versioned JSON data: provinces, postal codes, interventions, cost models, changelog |
+| `docs/dev-notes/` | Build notes from the rebuild |
 
 ## Quarterly Update Schedule
 
@@ -268,10 +252,6 @@ If breaking changes needed, create `/v3` directory. Old versions remain accessib
 
 ---
 
-## Ready for Phase 2?
+## Author
 
-Phase 1 is complete and ready for code review. All data is sourced, validated, and organized.
-
-Proceed to Phase 2 (HTML/CSS/JS) once approved.
-
-Questions? See `docs/` folder (to be created in Phase 5).
+Built by [Mohamed Bah](https://github.com/Moezusb). Data sources and methodology are cited in-app under "How We Calculated This."
